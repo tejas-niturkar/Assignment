@@ -7,11 +7,17 @@ To run the test cases, Go to HomePageTest class (location: https://github.com/te
   Test case 1: Confirm accessibility of the top-level menus: Home, Our Story, Our Solution, and Why Tendable. 
                Method name: validateHomePageLinks
 
+![Screenshot from 2024-02-12 13-38-26.png](..%2F..%2FPictures%2FScreenshots%2FScreenshot%20from%202024-02-12%2013-38-26.png)
+
+
   Test case 2: Verify that the "Request a Demo" button is present and active on each of the aforementioned top-level menu pages.
                Method name: validateRequestADemoButton
                
+
+![img.png](img.png)
+
+
   Test case 3: Navigate to the "Contact Us" section, choose "Marketing", and complete the form— excluding the "Message" field. On submission, an error should arise. Ensure your script confirms the error message's appearance. If the error is displayed, mark the test as PASS. If absent, it's a FAIL.
                Method name: validateSubmitContactFormErrorMessage
 
-
-  
+![img_1.png](img_1.png)
