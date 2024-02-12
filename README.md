@@ -7,8 +7,7 @@ To run the test cases, Go to HomePageTest class (location: https://github.com/te
   Test case 1: Confirm accessibility of the top-level menus: Home, Our Story, Our Solution, and Why Tendable. 
                Method name: validateHomePageLinks
 
-![Screenshot from 2024-02-12 13-38-26.png](..%2F..%2FPictures%2FScreenshots%2FScreenshot%20from%202024-02-12%2013-38-26.png)
-
+![img_2.png](img_2.png)
 
   Test case 2: Verify that the "Request a Demo" button is present and active on each of the aforementioned top-level menu pages.
                Method name: validateRequestADemoButton
