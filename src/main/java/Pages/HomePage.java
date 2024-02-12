@@ -42,13 +42,10 @@ public class HomePage extends TestBase {
     public WebElement errorMessage;
 
 
-
     // Initializing the page objects
     public HomePage (){
         PageFactory.initElements(driver,this);
     }
-
-
 
     public boolean getHomePageLogo () {
         return homePageLogo.isDisplayed();
@@ -100,10 +97,8 @@ public class HomePage extends TestBase {
         organizationNameInput.sendKeys("Google");
         phoneNumberInput.sendKeys("+91872323233");
         emailInput.sendKeys("john.w@google.com");
-
         Select dropDown = new Select(jobRoleDropDownList);
         dropDown.selectByVisibleText("Management");
-
         consentRadioButton.click();
         submitFormButton.click();
         Thread.sleep(3000);

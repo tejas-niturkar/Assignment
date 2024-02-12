@@ -5,11 +5,7 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-
-
 public class HomePageTest extends TestBase{
-
-
     HomePage homePage ;
     public HomePageTest (){
      super();
@@ -57,13 +53,11 @@ public class HomePageTest extends TestBase{
         Assert.assertTrue(homePage.isRequestADemoButtonDisplayed(), "Request Demo button is not displayed.");
         Assert.assertTrue(homePage.isRequestADemoButtonEnabled(), "Request Demo button is not enabled.");
         System.out.println("Request A Demo button present on the why tendable page");
-
     }
 
     @Test
     public void validateSubmitContactFormErrorMessage() throws InterruptedException {
         homePage.contactUsForm();
-        // boolean msg = homePage.errorMessage.isDisplayed();
 
         if (homePage.errorMessage.isDisplayed()) {
             System.out.println("Error message is present on the page, Test case is passed");
@@ -77,5 +71,4 @@ public class HomePageTest extends TestBase{
     public void tearDown (){
         driver.quit();
     }
-
 }
